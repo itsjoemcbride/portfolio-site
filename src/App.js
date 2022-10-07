@@ -1,5 +1,6 @@
 import "./App.scss";
 import AboutMe from "./components/AboutMe";
+import Footer from "./components/Footer";
 import ReactProjects from "./components/ReactProjects";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <AboutMe />
       <ReactProjects />
+      <Footer />
     </>
   );
 }

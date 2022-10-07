@@ -11,7 +11,7 @@ const AboutMe = () => {
         <h1>McBride</h1>
         <h2>
           A young developer with a passion for learning new tools to create more
-          varied user experiences.
+          varied user experiences
         </h2>
         <h3>Find me on</h3>
         <div className="icons">
@@ -26,6 +26,7 @@ const AboutMe = () => {
           </a>
         </div>
       </div>
+
       <img src={profile} alt="Joe McBride" />
     </div>
   );

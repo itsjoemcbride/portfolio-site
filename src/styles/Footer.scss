@@ -1,0 +1,36 @@
+@import "_colors";
+
+.footer {
+  background-color: $theme-primary;
+  color: $text-secondary;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 0;
+  row-gap: 10px;
+
+  .contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+  }
+
+  .social-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  a {
+    text-decoration: none;
+    color: $text-secondary;
+  }
+
+  li {
+    list-style: none;
+  }
+}
