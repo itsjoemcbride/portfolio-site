@@ -3,6 +3,7 @@ import AboutMe from "./components/AboutMe";
 import Footer from "./components/Footer";
 import ReactProjects from "./components/ReactProjects";
 import PythonProjects from "./components/PythonProjects";
+import UnityProjects from "./components/UnityProjects";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <AboutMe />
       <ReactProjects />
       <PythonProjects />
+      <UnityProjects />
       <Footer />
     </>
   );
