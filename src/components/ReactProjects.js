@@ -1,11 +1,11 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
-import "../styles/ReactProjects.css";
+import "../styles/ReactProjects.scss";
 import cocktailsImg from "../images/ReactProjects/CocktailRecipes.jpg";
 
 const ReactProjects = () => {
   return (
-    <>
+    <div className="react-projects">
       <h1>React</h1>
       <div className="cards">
         <ProjectCard
@@ -18,7 +18,7 @@ const ReactProjects = () => {
           liveLink={"https://imaginative-macaron-91764f.netlify.app/"}
         />
       </div>
-    </>
+    </div>
   );
 };
 

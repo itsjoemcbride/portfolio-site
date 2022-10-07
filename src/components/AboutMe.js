@@ -1,10 +1,10 @@
 import React from "react";
 import profile from "../images/profile.jpg";
-import "../styles/AboutMe.css";
+import "../styles/AboutMe.scss";
 
 const AboutMe = () => {
   return (
-    <div className="section">
+    <div className="about-me">
       <div className="bio">
         <h2>Hello, it's</h2>
         <h1>Joe</h1>
