@@ -1,12 +1,12 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
-import "../styles/ReactProjects.scss";
+import "../styles/Projects.scss";
 import cocktailsImg from "../images/ReactProjects/CocktailRecipes.jpg";
 import portfolioImg from "../images/ReactProjects/PortfolioSite.jpg";
 
 const ReactProjects = () => {
   return (
-    <div className="react-projects">
+    <div className="projects">
       <h1>React</h1>
       <div className="cards">
         <ProjectCard

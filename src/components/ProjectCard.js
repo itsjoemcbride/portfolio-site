@@ -10,10 +10,17 @@ const ProjectCard = (props) => {
       <div className="spacer" />
       <div className="buttons">
         <a href={props.sourceLink}>Source</a>
-        <a href={props.liveLink}>Live</a>
+        {getLiveLink(props)}
       </div>
     </div>
   );
 };
+
+function getLiveLink(params) {
+  if (params.liveLink) {
+    console.log(params.liveLink);
+    return [<a href={params.liveLink}>Live</a>];
+  }
+}
 
 export default ProjectCard;
