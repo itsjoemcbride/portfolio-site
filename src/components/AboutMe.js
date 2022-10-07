@@ -21,6 +21,9 @@ const AboutMe = () => {
           <a href="https://github.com/itsjoemcbride">
             <i class="fa-brands fa-github"></i>
           </a>
+          <a href="https://twitch.tv/madcoffeedragon">
+            <i class="fa-brands fa-twitch"></i>
+          </a>
         </div>
       </div>
       <img src={profile} alt="Joe McBride" />
