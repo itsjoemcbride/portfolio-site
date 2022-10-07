@@ -7,6 +7,7 @@ const ProjectCard = (props) => {
       <h2>{props.name}</h2>
       <img src={props.image} alt={props.name}></img>
       <p>{props.description}</p>
+      <div className="spacer" />
       <div className="buttons">
         <a href={props.sourceLink}>Source</a>
         <a href={props.liveLink}>Live</a>

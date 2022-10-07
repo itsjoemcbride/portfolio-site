@@ -2,6 +2,7 @@ import React from "react";
 import ProjectCard from "./ProjectCard";
 import "../styles/ReactProjects.scss";
 import cocktailsImg from "../images/ReactProjects/CocktailRecipes.jpg";
+import portfolioImg from "../images/ReactProjects/PortfolioSite.jpg";
 
 const ReactProjects = () => {
   return (
@@ -16,6 +17,16 @@ const ReactProjects = () => {
           }
           sourceLink={"https://github.com/itsjoemcbride/cocktails-app"}
           liveLink={"https://imaginative-macaron-91764f.netlify.app/"}
+        />
+
+        <ProjectCard
+          name={"Portfolio Site"}
+          image={portfolioImg}
+          description={
+            "This project was built with React to display links to projects that I have worked on."
+          }
+          sourceLink={"https://github.com/itsjoemcbride/portfolio-site"}
+          liveLink={"https://itsjoemcbride.gq/"}
         />
       </div>
     </div>
