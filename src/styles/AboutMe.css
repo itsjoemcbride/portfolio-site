@@ -1,0 +1,50 @@
+.section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #60019d;
+  color: white;
+}
+
+.bio {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin-left: 25px;
+  margin-top: 25px;
+}
+
+.icons {
+  font-size: xx-large;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+a {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 100px;
+  margin: 0px;
+}
+
+h2 {
+  font-weight: 300;
+  margin: 0px;
+}
+
+h3 {
+  margin: 0px;
+  font-weight: 500;
+  margin-top: 25px;
+}
