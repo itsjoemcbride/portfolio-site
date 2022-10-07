@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.scss";
 import AboutMe from "./components/AboutMe";
 import ReactProjects from "./components/ReactProjects";
 
