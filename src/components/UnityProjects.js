@@ -14,7 +14,7 @@ const UnityProjects = () => {
           description={
             "A basic player controller, where enemy characters are instantiated using the InvokeRepeating function. Enemies are destroyed on contact with a pellet, that the player can instantiate with a mouse click."
           }
-          sourceLink={"#"}
+          sourceLink={"https://github.com/itsjoemcbride/unity-fps-jackattack"}
           liveLink={"https://play.unity.com/mg/other/0-21-6qsf"}
         />
       </div>
