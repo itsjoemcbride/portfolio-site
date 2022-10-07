@@ -7,6 +7,7 @@
   flex-direction: column;
   flex-wrap: wrap;
   width: 350px;
+  margin-bottom: 20px;
 
   .buttons {
     display: flex;
@@ -16,5 +17,25 @@
 
   a {
     background-color: $theme-primary;
+    color: $text-secondary;
+    font-weight: 600;
+    width: 80px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    background-color: $theme-primary;
+    margin: 0;
+    color: $text-secondary;
+    padding: 20px 15px;
+  }
+
+  p {
+    padding: 5px 15px;
   }
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/ProjectCard.scss";
 
 const ProjectCard = (props) => {
   return (
