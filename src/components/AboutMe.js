@@ -1,5 +1,5 @@
 import React from "react";
-import profile from "../images/profile.jpg";
+import profileImg from "../images/AboutMe/profile.png";
 import "../styles/AboutMe.scss";
 
 const AboutMe = () => {
@@ -26,8 +26,11 @@ const AboutMe = () => {
           </a>
         </div>
       </div>
-
-      <img src={profile} alt="Joe McBride" />
+      <div className="profile-img">
+        <div className="spacer" />
+        <img src={profileImg} alt="Joe McBride" />
+        <div className="spacer" />
+      </div>
     </div>
   );
 };
